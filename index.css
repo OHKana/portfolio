@@ -12,12 +12,32 @@ section{
     display: flex;
 }
 .half-width{
-    width: 60%;
+    width: 50%;
     padding-left: 50px;
     padding-right: 20px;
 }
 .half-width image{
-    width: 5%;
+    width: 50%;
+}
+.middle-width{
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-right: 10px;
+    padding-bottom: 400px;
+}
+.middle-width image{
+    width: 50%;
+}
+.middle-t-width{
+    width: 60%;
+    padding-left: 10px;
+    padding-right: 20px;
+    
+    padding-top: 60px;
+}
+.middle-t-width image{
+    width: 50%;
 }
 p{
     font-size: 25px;
@@ -33,4 +53,10 @@ p{
 .top{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.middle{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    position: bottom;
 }
